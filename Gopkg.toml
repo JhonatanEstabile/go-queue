@@ -1,0 +1,82 @@
+
+# Gopkg.toml example
+#
+# Refer to https://github.com/golang/dep/blob/master/docs/Gopkg.toml.md
+# for detailed Gopkg.toml documentation.
+#
+# required = ["github.com/user/thing/cmd/thing"]
+# ignored = ["github.com/user/project/pkgX", "bitbucket.org/user/project/pkgA/pkgY"]
+#
+# [[constraint]]
+#   name = "github.com/user/project"
+#   version = "1.0.0"
+#
+# [[constraint]]
+#   name = "github.com/user/project2"
+#   branch = "dev"
+#   source = "github.com/myfork/project2"
+#
+# [[override]]
+#  name = "github.com/x/y"
+#  version = "2.4.0"
+
+
+[[constraint]]
+  name = "github.com/go-redis/redis"
+  version = "6.15.3"
+
+[[constraint]]
+  name = "go.mongodb.org/mongo-driver"
+  version = "~1.0.0"
+
+[[constraint]]
+  name = "github.com/elliotchance/phpserialize"
+  version = "1.1.7"
+
+[[constraint]]
+  name = "github.com/joho/godotenv"
+  version = "1.3.0"
+
+[[constraint]]
+  name = "github.com/mitchellh/mapstructure"
+  version = "1.1.2"
+
+[[constraint]]
+  name = "github.com/stretchr/testify"
+  version = "1.3.0"
+
+[[constraint]]
+  name = "github.com/go-sql-driver/mysql"
+  version = "1.4.1"
+
+[[constraint]]
+  name = "github.com/gemnasium/logrus-graylog-hook"
+  version = "3.0.2"
+
+[[constraint]]
+  name = "github.com/alicebob/miniredis"
+  version = "2.7.0"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/Devatoria/go-graylog"
+
+[[constraint]]
+  name = "github.com/landru29/ovh-logrus-hook-graylog"
+  version = "1.0.2"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/robertkowalski/graylog-golang"
+
+[[constraint]]
+  name = "github.com/sirupsen/logrus"
+  version = "1.4.2"
+
+[[constraint]]
+  branch = "v1"
+  name = "github.com/Graylog2/go-gelf"
+
+[[constraint]]
+  name = "github.com/DATA-DOG/go-sqlmock"
+  version = "1.3.3"
